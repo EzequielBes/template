@@ -10,7 +10,7 @@ export class ExpressHttpServer implements HttpServer {
 
 
     register(method: string, url: string, callBack: Function): void {
-        throw new Error("Method not implementedD.")
+        throw new Error("Method not implemented.")
     }
     listen(port: number): void {
         throw new Error("Method not implemented.")
