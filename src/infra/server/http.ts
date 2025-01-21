@@ -8,9 +8,9 @@ export class ExpressHttpServer implements HttpServer {
         this.app.use(express.json())
     }
 
-    
+
     register(method: string, url: string, callBack: Function): void {
-        throw new Error("Method not implemented.")
+        throw new Error("Method not implementedD.")
     }
     listen(port: number): void {
         throw new Error("Method not implemented.")
